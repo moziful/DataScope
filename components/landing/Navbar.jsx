@@ -72,11 +72,6 @@ export default function Navbar() {
 
           {/* Right Action Buttons & Role Badge */}
           <div className="hidden md:flex items-center gap-3">
-            <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-slate-900 border border-slate-800 text-xs text-slate-300">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>100k+ Records Live</span>
-            </div>
-
             <Link
               href="/login"
               className="px-4 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-900 border border-transparent hover:border-slate-800 rounded-lg transition-colors"
@@ -88,7 +83,7 @@ export default function Navbar() {
               href="/app"
               className="relative inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white rounded-lg bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:opacity-95 shadow-md shadow-blue-500/25 transition-all duration-200"
             >
-              <span>Launch Platform</span>
+              <span>Get Started</span>
               <ArrowRight className="w-4 h-4" />
             </Link>
           </div>

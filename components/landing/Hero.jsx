@@ -30,24 +30,21 @@ export default function Hero() {
         <div className="flex justify-center">
           <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-cyan-500/30 bg-cyan-950/40 text-cyan-300 text-xs sm:text-sm font-medium shadow-inner shadow-cyan-500/10 backdrop-blur-md">
             <Sparkles className="w-4 h-4 text-cyan-400" />
-            <span>Next-Gen Enterprise Data Discovery Platform</span>
-            <span className="w-1 h-1 rounded-full bg-cyan-400" />
-            <span className="text-slate-400">PostgreSQL + RTK Architecture</span>
+            <span>Next-Gen Enterprise Data Discovery & Intelligence</span>
           </div>
         </div>
 
         {/* Hero Title & Subtext */}
         <div className="mt-8 max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white leading-[1.12]">
-            Search, Explore & Analyze{" "}
+            Discover, Explore & Analyze{" "}
             <span className="bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 bg-clip-text text-transparent">
-              Millions of Records
+              Business Data
             </span>{" "}
-            in Milliseconds.
+            at Enterprise Scale.
           </h1>
           <p className="mt-6 text-lg sm:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">
-            DataScope solves large-scale enterprise data discovery. Featuring multi-field compound filtering,
-            server-side indexing, Postgres full-text search, RTK query caching, and interactive virtualized data tables.
+            Centralized data discovery platform designed to help organizations explore large datasets, perform advanced searches, apply compound filters, and manage structured business intelligence.
           </p>
 
           {/* Call to Actions */}
@@ -56,37 +53,17 @@ export default function Hero() {
               href="/app"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-base font-semibold text-white bg-gradient-to-r from-cyan-500 via-blue-600 to-indigo-600 hover:opacity-95 shadow-lg shadow-cyan-500/25 transition-all duration-200"
             >
-              <span>Explore 100k+ Dataset</span>
+              <span>Launch DataScope Platform</span>
               <ArrowRight className="w-5 h-5" />
             </Link>
 
             <a
-              href="#architecture"
+              href="#explorer"
               className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl text-base font-semibold text-slate-300 hover:text-white bg-slate-900/80 hover:bg-slate-850 border border-slate-800 hover:border-slate-700 transition-all duration-200 backdrop-blur-sm"
             >
-              <Server className="w-5 h-5 text-cyan-400" />
-              <span>Inspect Architecture</span>
+              <Database className="w-5 h-5 text-cyan-400" />
+              <span>Explore Data</span>
             </a>
-          </div>
-
-          {/* Quick Stats Banner */}
-          <div className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4 max-w-4xl mx-auto pt-8 border-t border-slate-800/80">
-            <div className="p-3 rounded-lg bg-slate-900/40 border border-slate-800/60">
-              <div className="text-2xl sm:text-3xl font-extrabold text-white">100,000+</div>
-              <div className="text-xs text-slate-400 mt-0.5">Benchmark Records</div>
-            </div>
-            <div className="p-3 rounded-lg bg-slate-900/40 border border-slate-800/60">
-              <div className="text-2xl sm:text-3xl font-extrabold text-cyan-400">&lt; 35ms</div>
-              <div className="text-xs text-slate-400 mt-0.5">Indexed Search Latency</div>
-            </div>
-            <div className="p-3 rounded-lg bg-slate-900/40 border border-slate-800/60">
-              <div className="text-2xl sm:text-3xl font-extrabold text-sky-400">Zero-Lag</div>
-              <div className="text-xs text-slate-400 mt-0.5">Deduplicated Fetching</div>
-            </div>
-            <div className="p-3 rounded-lg bg-slate-900/40 border border-slate-800/60">
-              <div className="text-2xl sm:text-3xl font-extrabold text-indigo-400">3 Roles</div>
-              <div className="text-xs text-slate-400 mt-0.5">Admin, Analyst, Viewer</div>
-            </div>
           </div>
         </div>
 
